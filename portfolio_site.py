@@ -22,6 +22,10 @@ def homepage():
 	return render_template('index.html') 
 
 if __name__ == '__main__':
+<<<<<<< HEAD
 	# app.run(host='0.0.0.0', port=80, debug=True)
 	# app.run(host='https://thawing-ocean-73900.herokuapp.com/', port=80, debug=True)
 	app.run()
+=======
+	app.run(host='0.0.0.0', port=80, debug=True)
+>>>>>>> 7a27ab5aaaa09b212d09ae00fb9e33db6ec0f67f
